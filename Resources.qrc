@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/imagenes">
+        <file>ICONOS/agregar-archivo.png</file>
+        <file>ICONOS/borrar.png</file>
+        <file>ICONOS/doble-verificacion.png</file>
+        <file>ICONOS/lista-de-quehaceres.png</file>
+        <file>ICONOS/mas.png</file>
+        <file>ICONOS/salida.png</file>
+        <file>ICONOS/terminar.png</file>
+    </qresource>
+</RCC>

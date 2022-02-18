@@ -10,11 +10,13 @@ CONFIG += c++11
 
 SOURCES += \
     agregar.cpp \
+    datos.cpp \
     main.cpp \
     principal.cpp
 
 HEADERS += \
     agregar.h \
+    datos.h \
     principal.h
 
 FORMS += \

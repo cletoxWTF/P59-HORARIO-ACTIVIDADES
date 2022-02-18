@@ -6,7 +6,7 @@ Principal::Principal(QWidget *parent)
     , ui(new Ui::Principal)
 {
     ui->setupUi(this);
-    QStringList cabecera = {"Numero", "Nombre","Tipo", "Fecha"};
+    QStringList cabecera = {tr("Numero"), tr("Nombre"),tr("Tipo"),tr( "Fecha")};
     ui->outActividades->setColumnCount(4);
     ui->outActividades->setHorizontalHeaderLabels(cabecera);
 }

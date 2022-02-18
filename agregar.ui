@@ -28,7 +28,11 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>AGREGAR</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resources.qrc">
+    <normaloff>:/imagenes/ICONOS/agregar-simbolo.png</normaloff>:/imagenes/ICONOS/agregar-simbolo.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(69, 105, 127);</string>
@@ -70,8 +74,8 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="2">
-       <widget class="QLineEdit" name="lineEdit">
+      <item row="0" column="2" colspan="2">
+       <widget class="QLineEdit" name="InNombre">
         <property name="styleSheet">
          <string notr="true">background-color: rgb(217, 255, 249);
 color: rgb(0, 0, 0);</string>
@@ -96,8 +100,8 @@ color: rgb(0, 0, 0);</string>
         </property>
        </widget>
       </item>
-      <item row="1" column="2">
-       <widget class="QDateEdit" name="dateEdit">
+      <item row="1" column="2" colspan="2">
+       <widget class="QDateEdit" name="Infecha">
         <property name="styleSheet">
          <string notr="true">background-color: rgb(217, 255, 249);
 color: rgb(0, 0, 0);</string>
@@ -122,8 +126,8 @@ color: rgb(0, 0, 0);</string>
         </property>
        </widget>
       </item>
-      <item row="2" column="2">
-       <widget class="QComboBox" name="comboBox">
+      <item row="2" column="2" colspan="2">
+       <widget class="QComboBox" name="intPrioridad">
         <property name="styleSheet">
          <string notr="true">background-color: rgb(217, 255, 249);
 color: rgb(0, 0, 0);</string>
@@ -148,29 +152,29 @@ color: rgb(0, 0, 0);</string>
         </property>
        </widget>
       </item>
-      <item row="3" column="2">
-       <widget class="QLineEdit" name="lineEdit_2">
+      <item row="3" column="2" colspan="2">
+       <widget class="QLineEdit" name="inTipo">
         <property name="styleSheet">
          <string notr="true">background-color: rgb(217, 255, 249);
 color: rgb(0, 0, 0);</string>
         </property>
        </widget>
       </item>
-      <item row="4" column="0">
+      <item row="4" column="0" colspan="3">
        <spacer name="horizontalSpacer_2">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
         <property name="sizeHint" stdset="0">
          <size>
-          <width>61</width>
+          <width>186</width>
           <height>20</height>
          </size>
         </property>
        </spacer>
       </item>
-      <item row="4" column="1" colspan="2">
-       <widget class="QCheckBox" name="checkBox">
+      <item row="4" column="3">
+       <widget class="QCheckBox" name="checkFinalizado">
         <property name="font">
          <font>
           <family>Georgia</family>
@@ -201,7 +205,7 @@ color: rgb(0, 0, 0);</string>
        </spacer>
       </item>
       <item row="5" column="1">
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="btnAgregar">
         <property name="font">
          <font>
           <family>Georgia</family>
@@ -219,8 +223,8 @@ background-color: rgb(198, 255, 172);</string>
         </property>
        </widget>
       </item>
-      <item row="5" column="2">
-       <widget class="QPushButton" name="pushButton_2">
+      <item row="5" column="2" colspan="2">
+       <widget class="QPushButton" name="btnCancelar">
         <property name="font">
          <font>
           <family>Georgia</family>
@@ -243,6 +247,8 @@ background-color: rgb(255, 176, 201);</string>
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

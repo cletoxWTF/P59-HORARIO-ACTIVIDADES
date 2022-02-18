@@ -7,5 +7,10 @@
         <file>ICONOS/mas.png</file>
         <file>ICONOS/salida.png</file>
         <file>ICONOS/terminar.png</file>
+        <file>ICONOS/agregar-simbolo.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>ICONOS/agregar-simbolo.png</file>
+        <file>examen_olalla_john_en.qm</file>
     </qresource>
 </RCC>

@@ -21,6 +21,8 @@ FORMS += \
     agregar.ui \
     principal.ui
 
+TRANSLATIONS = examen_olalla_john_en.ts
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
@@ -28,3 +30,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Resources.qrc
+
+DISTFILES += \
+    examen_olalla_john_en.qm

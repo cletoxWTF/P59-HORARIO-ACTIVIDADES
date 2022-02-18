@@ -12,3 +12,9 @@ agregar::~agregar()
 {
     delete ui;
 }
+
+void agregar::on_btnCancelar_released()
+{
+    QDialog::close();
+}
+
